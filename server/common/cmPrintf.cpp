@@ -341,7 +341,7 @@ static STBSP__ASAN stbsp__uint32 stbsp__strlen_limited(char const *s, stbsp__uin
    return (stbsp__uint32)(sn - s);
 }
 
-// [Palanteer] Helpers to get the paramter value depending on the parameter structure and desired output type
+// [Palanteer] Helpers to get the parameter value depending on the parameter structure and desired output type
 
 #define genGetParam(name, t)                                            \
     static inline t                                                     \
